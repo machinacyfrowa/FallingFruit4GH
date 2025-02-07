@@ -29,4 +29,9 @@ public class LevelManager : MonoBehaviour
     {
         score += scoreToAdd;
     }
+
+    public void ZeroScore()
+    {
+        score = 0;
+    }
 }
